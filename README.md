@@ -1,6 +1,7 @@
 # HKTextScrollView
 
-<div align=center><img src="![textScroll](https://github.com/hooyking/HKTextScrollView/blob/master/textScroll.gif?raw=true" width="300" height="450" />
+<div style="align: center">
+<img src="https://github.com/hooyking/HKTextScrollView/blob/master/textScroll.gif?raw=true"/>
 </div>
 
 #使用方法
