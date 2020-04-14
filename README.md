@@ -23,3 +23,5 @@ verticalTextView.backgroundColor = [UIColor grayColor];
 [self.view addSubview:verticalTextView];
 ```
 里面cell可以自定义
+
+可以直接把TextScrollView文件夹拖入项目直接使用
