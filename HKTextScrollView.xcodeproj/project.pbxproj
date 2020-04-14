@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31DF57062444498700CF978E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DF57052444498700CF978E /* AppDelegate.m */; };
+		31DF57092444498700CF978E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DF57082444498700CF978E /* SceneDelegate.m */; };
+		31DF570C2444498700CF978E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DF570B2444498700CF978E /* ViewController.m */; };
+		31DF570F2444498700CF978E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31DF570D2444498700CF978E /* Main.storyboard */; };
+		31DF57112444498800CF978E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31DF57102444498800CF978E /* Assets.xcassets */; };
+		31DF57142444498800CF978E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31DF57122444498800CF978E /* LaunchScreen.storyboard */; };
+		31DF57172444498800CF978E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DF57162444498800CF978E /* main.m */; };
+		31DF57212444498800CF978E /* HKTextScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DF57202444498800CF978E /* HKTextScrollViewTests.m */; };
+		31DF572C2444498800CF978E /* HKTextScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DF572B2444498800CF978E /* HKTextScrollViewUITests.m */; };
+		31DF573B24444E2200CF978E /* HKTextScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DF573A24444E2200CF978E /* HKTextScrollView.m */; };
+		31DF573F244458D300CF978E /* HKTextScrollCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DF573D244458D300CF978E /* HKTextScrollCollectionViewCell.m */; };
+		31DF5740244458D300CF978E /* HKTextScrollCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31DF573E244458D300CF978E /* HKTextScrollCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31DF571D2444498800CF978E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31DF56F92444498700CF978E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31DF57002444498700CF978E;
+			remoteInfo = HKTextScrollView;
+		};
+		31DF57282444498800CF978E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31DF56F92444498700CF978E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31DF57002444498700CF978E;
+			remoteInfo = HKTextScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31DF57012444498700CF978E /* HKTextScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HKTextScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31DF57042444498700CF978E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31DF57052444498700CF978E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31DF57072444498700CF978E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		31DF57082444498700CF978E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		31DF570A2444498700CF978E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		31DF570B2444498700CF978E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		31DF570E2444498700CF978E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31DF57102444498800CF978E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31DF57132444498800CF978E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31DF57152444498800CF978E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31DF57162444498800CF978E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31DF571C2444498800CF978E /* HKTextScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HKTextScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31DF57202444498800CF978E /* HKTextScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HKTextScrollViewTests.m; sourceTree = "<group>"; };
+		31DF57222444498800CF978E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31DF57272444498800CF978E /* HKTextScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HKTextScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31DF572B2444498800CF978E /* HKTextScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HKTextScrollViewUITests.m; sourceTree = "<group>"; };
+		31DF572D2444498800CF978E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31DF573924444E2200CF978E /* HKTextScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HKTextScrollView.h; sourceTree = "<group>"; };
+		31DF573A24444E2200CF978E /* HKTextScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HKTextScrollView.m; sourceTree = "<group>"; };
+		31DF573C244458D300CF978E /* HKTextScrollCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HKTextScrollCollectionViewCell.h; sourceTree = "<group>"; };
+		31DF573D244458D300CF978E /* HKTextScrollCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HKTextScrollCollectionViewCell.m; sourceTree = "<group>"; };
+		31DF573E244458D300CF978E /* HKTextScrollCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HKTextScrollCollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31DF56FE2444498700CF978E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DF57192444498800CF978E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DF57242444498800CF978E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31DF56F82444498700CF978E = {
+			isa = PBXGroup;
+			children = (
+				31DF57032444498700CF978E /* HKTextScrollView */,
+				31DF571F2444498800CF978E /* HKTextScrollViewTests */,
+				31DF572A2444498800CF978E /* HKTextScrollViewUITests */,
+				31DF57022444498700CF978E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31DF57022444498700CF978E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31DF57012444498700CF978E /* HKTextScrollView.app */,
+				31DF571C2444498800CF978E /* HKTextScrollViewTests.xctest */,
+				31DF57272444498800CF978E /* HKTextScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31DF57032444498700CF978E /* HKTextScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				31DF574124445F1300CF978E /* TextScrollView */,
+				31DF57042444498700CF978E /* AppDelegate.h */,
+				31DF57052444498700CF978E /* AppDelegate.m */,
+				31DF57072444498700CF978E /* SceneDelegate.h */,
+				31DF57082444498700CF978E /* SceneDelegate.m */,
+				31DF570A2444498700CF978E /* ViewController.h */,
+				31DF570B2444498700CF978E /* ViewController.m */,
+				31DF570D2444498700CF978E /* Main.storyboard */,
+				31DF57102444498800CF978E /* Assets.xcassets */,
+				31DF57122444498800CF978E /* LaunchScreen.storyboard */,
+				31DF57152444498800CF978E /* Info.plist */,
+				31DF57162444498800CF978E /* main.m */,
+			);
+			path = HKTextScrollView;
+			sourceTree = "<group>";
+		};
+		31DF571F2444498800CF978E /* HKTextScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				31DF57202444498800CF978E /* HKTextScrollViewTests.m */,
+				31DF57222444498800CF978E /* Info.plist */,
+			);
+			path = HKTextScrollViewTests;
+			sourceTree = "<group>";
+		};
+		31DF572A2444498800CF978E /* HKTextScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31DF572B2444498800CF978E /* HKTextScrollViewUITests.m */,
+				31DF572D2444498800CF978E /* Info.plist */,
+			);
+			path = HKTextScrollViewUITests;
+			sourceTree = "<group>";
+		};
+		31DF574124445F1300CF978E /* TextScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				31DF573924444E2200CF978E /* HKTextScrollView.h */,
+				31DF573A24444E2200CF978E /* HKTextScrollView.m */,
+				31DF573C244458D300CF978E /* HKTextScrollCollectionViewCell.h */,
+				31DF573D244458D300CF978E /* HKTextScrollCollectionViewCell.m */,
+				31DF573E244458D300CF978E /* HKTextScrollCollectionViewCell.xib */,
+			);
+			path = TextScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31DF57002444498700CF978E /* HKTextScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31DF57302444498800CF978E /* Build configuration list for PBXNativeTarget "HKTextScrollView" */;
+			buildPhases = (
+				31DF56FD2444498700CF978E /* Sources */,
+				31DF56FE2444498700CF978E /* Frameworks */,
+				31DF56FF2444498700CF978E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HKTextScrollView;
+			productName = HKTextScrollView;
+			productReference = 31DF57012444498700CF978E /* HKTextScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31DF571B2444498800CF978E /* HKTextScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31DF57332444498800CF978E /* Build configuration list for PBXNativeTarget "HKTextScrollViewTests" */;
+			buildPhases = (
+				31DF57182444498800CF978E /* Sources */,
+				31DF57192444498800CF978E /* Frameworks */,
+				31DF571A2444498800CF978E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31DF571E2444498800CF978E /* PBXTargetDependency */,
+			);
+			name = HKTextScrollViewTests;
+			productName = HKTextScrollViewTests;
+			productReference = 31DF571C2444498800CF978E /* HKTextScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31DF57262444498800CF978E /* HKTextScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31DF57362444498800CF978E /* Build configuration list for PBXNativeTarget "HKTextScrollViewUITests" */;
+			buildPhases = (
+				31DF57232444498800CF978E /* Sources */,
+				31DF57242444498800CF978E /* Frameworks */,
+				31DF57252444498800CF978E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31DF57292444498800CF978E /* PBXTargetDependency */,
+			);
+			name = HKTextScrollViewUITests;
+			productName = HKTextScrollViewUITests;
+			productReference = 31DF57272444498800CF978E /* HKTextScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31DF56F92444498700CF978E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = hooyking;
+				TargetAttributes = {
+					31DF57002444498700CF978E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					31DF571B2444498800CF978E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 31DF57002444498700CF978E;
+					};
+					31DF57262444498800CF978E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 31DF57002444498700CF978E;
+					};
+				};
+			};
+			buildConfigurationList = 31DF56FC2444498700CF978E /* Build configuration list for PBXProject "HKTextScrollView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31DF56F82444498700CF978E;
+			productRefGroup = 31DF57022444498700CF978E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31DF57002444498700CF978E /* HKTextScrollView */,
+				31DF571B2444498800CF978E /* HKTextScrollViewTests */,
+				31DF57262444498800CF978E /* HKTextScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31DF56FF2444498700CF978E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DF57142444498800CF978E /* LaunchScreen.storyboard in Resources */,
+				31DF5740244458D300CF978E /* HKTextScrollCollectionViewCell.xib in Resources */,
+				31DF57112444498800CF978E /* Assets.xcassets in Resources */,
+				31DF570F2444498700CF978E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DF571A2444498800CF978E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DF57252444498800CF978E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31DF56FD2444498700CF978E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DF570C2444498700CF978E /* ViewController.m in Sources */,
+				31DF573B24444E2200CF978E /* HKTextScrollView.m in Sources */,
+				31DF57062444498700CF978E /* AppDelegate.m in Sources */,
+				31DF57172444498800CF978E /* main.m in Sources */,
+				31DF573F244458D300CF978E /* HKTextScrollCollectionViewCell.m in Sources */,
+				31DF57092444498700CF978E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DF57182444498800CF978E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DF57212444498800CF978E /* HKTextScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DF57232444498800CF978E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DF572C2444498800CF978E /* HKTextScrollViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31DF571E2444498800CF978E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31DF57002444498700CF978E /* HKTextScrollView */;
+			targetProxy = 31DF571D2444498800CF978E /* PBXContainerItemProxy */;
+		};
+		31DF57292444498800CF978E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31DF57002444498700CF978E /* HKTextScrollView */;
+			targetProxy = 31DF57282444498800CF978E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31DF570D2444498700CF978E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31DF570E2444498700CF978E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31DF57122444498800CF978E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31DF57132444498800CF978E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31DF572E2444498800CF978E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		31DF572F2444498800CF978E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31DF57312444498800CF978E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KW57V5D9K;
+				INFOPLIST_FILE = HKTextScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hooyking.HKTextScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31DF57322444498800CF978E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KW57V5D9K;
+				INFOPLIST_FILE = HKTextScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hooyking.HKTextScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		31DF57342444498800CF978E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KW57V5D9K;
+				INFOPLIST_FILE = HKTextScrollViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hooyking.HKTextScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HKTextScrollView.app/HKTextScrollView";
+			};
+			name = Debug;
+		};
+		31DF57352444498800CF978E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KW57V5D9K;
+				INFOPLIST_FILE = HKTextScrollViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hooyking.HKTextScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HKTextScrollView.app/HKTextScrollView";
+			};
+			name = Release;
+		};
+		31DF57372444498800CF978E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KW57V5D9K;
+				INFOPLIST_FILE = HKTextScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hooyking.HKTextScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HKTextScrollView;
+			};
+			name = Debug;
+		};
+		31DF57382444498800CF978E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KW57V5D9K;
+				INFOPLIST_FILE = HKTextScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hooyking.HKTextScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HKTextScrollView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31DF56FC2444498700CF978E /* Build configuration list for PBXProject "HKTextScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31DF572E2444498800CF978E /* Debug */,
+				31DF572F2444498800CF978E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31DF57302444498800CF978E /* Build configuration list for PBXNativeTarget "HKTextScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31DF57312444498800CF978E /* Debug */,
+				31DF57322444498800CF978E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31DF57332444498800CF978E /* Build configuration list for PBXNativeTarget "HKTextScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31DF57342444498800CF978E /* Debug */,
+				31DF57352444498800CF978E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31DF57362444498800CF978E /* Build configuration list for PBXNativeTarget "HKTextScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31DF57372444498800CF978E /* Debug */,
+				31DF57382444498800CF978E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31DF56F92444498700CF978E /* Project object */;
+}
