@@ -1,6 +1,6 @@
 # HKTextScrollView
 
-![textScroll](https://github.com/hooyking/HKTextScrollView/blob/master/textScroll.gif?raw=true)
+![textScroll](https://github.com/hooyking/HKTextScrollView/blob/master/textScroll.gif?raw=true@w=100h=50)
 
 #使用方法
 
