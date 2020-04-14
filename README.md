@@ -4,6 +4,8 @@
 <img src="https://github.com/hooyking/HKTextScrollView/blob/master/textScroll.gif?raw=true"/>
 </div>
 
+<div align=center><img src="https://github.com/Legend-yd/MyDawn/blob/master/20171223205540585.png" width="300" height="450" /></div>
+
 #使用方法
 
 水平滚动
