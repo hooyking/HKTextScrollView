@@ -48,9 +48,9 @@ static NSString *const kTextScrollCollectionCellId = @"HKTextScrollCollectionVie
 + (instancetype)initWithVertivalTextArray:(NSArray *)textArray timeInterval:(NSTimeInterval)timeInterval frame:(CGRect)frame scrollType:(HKTextScrollDirection)scrollType selectBlock:(SelectedBlock)selectBlock {
     HKTextScrollView *textScrollView = [[HKTextScrollView alloc] initWithFrame:frame scrollType:scrollType];
     if (scrollType == HKTextScrollDirectionHorizontal) {
-        textScrollView.timeInterval = timeInterval <= 0 ? timeInterval : 0.01;
+        textScrollView.timeInterval = fabs(timeInterval);
     } else {
-        textScrollView.timeInterval = timeInterval <= 0 ? timeInterval : 2.5;
+        textScrollView.timeInterval = fabs(timeInterval);
     }
     textScrollView.selectedBlock = selectBlock;
     textScrollView.scrollType = scrollType;
@@ -71,7 +71,7 @@ static NSString *const kTextScrollCollectionCellId = @"HKTextScrollCollectionVie
     if (self.scrollType == HKTextScrollDirectionHorizontal) {
         NSString *string = self.textArray[indexPath.row];
         CGSize size = [string boundingRectWithSize:CGSizeMake(CGFLOAT_MAX, self.bounds.size.height) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:self.textFont ? self.textFont : [UIFont systemFontOfSize:14]} context:nil].size;
-        return CGSizeMake(size.width > self.bounds.size.width ? size.width : self.bounds.size.width, self.bounds.size.height);
+        return CGSizeMake(size.width > self.bounds.size.width ? size.width+100 : self.bounds.size.width, self.bounds.size.height);
     }
     return CGSizeMake(self.bounds.size.width, self.bounds.size.height);
 }
@@ -105,7 +105,7 @@ static NSString *const kTextScrollCollectionCellId = @"HKTextScrollCollectionVie
             self.currentIndex = 0;
             [self.collectionView setContentOffset:CGPointZero animated:NO];
         }
-    } 
+    }
 }
 
 - (void)timeLoop {
@@ -161,3 +161,4 @@ static NSString *const kTextScrollCollectionCellId = @"HKTextScrollCollectionVie
 }
 
 @end
+
