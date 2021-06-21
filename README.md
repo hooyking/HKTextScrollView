@@ -2,7 +2,7 @@
 
 <div align=center><img src="https://github.com/hooyking/HKTextScrollView/blob/master/textScroll.gif?raw=true" width="372" height="261" /></div>
 
-#使用方法
+# 使用方法
 
 水平滚动
 ```
